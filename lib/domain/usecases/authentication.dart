@@ -1,6 +1,5 @@
-import 'package:meta/meta.dart';
-
 import '../entities/account_entity.dart';
+import 'package:meta/meta.dart';
 
 abstract class Authentication {
   Future<AccountEntity> auth(
